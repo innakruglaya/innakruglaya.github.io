@@ -10,6 +10,7 @@ h1 {
 	font-size: 60px;
 	font-weight: bold;
 	font-family: 'Hammersmith One', sans-serif;
+	text-align: center;
 }
 p{
 	text-align: left;
@@ -21,25 +22,14 @@ hr {
 	color: rgb(18,89,255);
 	width: 55px;
 }
-ul.a {
-	list-style-type: circle;
-}
-ul.b {
-	list-style-type: square;
-}
-ol.c {
-	list-style-type: arabic;
-}
-ol.d {
-	list-style-type: lower-alpha;
-}
+
 img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
 }
 #slogan {
-	background-color: rgb(161,253,255);
+	background-color: white;
 	font-size: 22px;
 	font-family: Arial, sans-serif;
 	text-align: center;
@@ -48,7 +38,7 @@ img {
 }
 
 header {
-    background-color: #FFED74;
+    background-color: white;
     border: 1px black solid;
     padding: 20px;
 }
@@ -78,7 +68,7 @@ div {
 .column {
 	float: left;
 	width: 31%;
-	height: 570px;
+	height: auto;
 	padding: 10px;
 }
 .row:after {
